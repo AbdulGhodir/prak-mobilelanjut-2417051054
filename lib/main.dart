@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:prakmola_abdul/first_widget.dart';
+import 'package:prakmola_abdul/form_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple
         )
       ),
-      home: const FirstWidget(),
+      home: const FormWidget(),
     );
   }
 }
