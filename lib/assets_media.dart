@@ -93,7 +93,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
                   children: [
                     ClipOval(
                       child: Image.asset(
-                        'assets/images/cupang.png',
+                        'assets/images/profile.jpeg',
                         width: 120,
                         height: 120,
                         fit: BoxFit.cover,
@@ -101,7 +101,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
                     ),
                     const SizedBox(height: 15),
                     const Text(
-                      'Nama Mahasiswa',
+                      'Abdul Ghodir Firdiansyah',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 22,
